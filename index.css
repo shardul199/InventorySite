@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('pharm.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed;
+    overflow: hidden; */
+  
+
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white on hover */
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent black */
+}
+
+.pop-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.all-products-button {
+    padding: 1.5rem 2.5rem;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.all-products-button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.all-products-button a{
+    text-decoration: none;
+    color: white;
+
+}
+
