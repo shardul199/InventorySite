@@ -10,9 +10,8 @@ body {
     background: url('pharm.jpg')no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-attachment: fixed;
-    overflow: hidden; */
-  
+    background-attachment: fixed;
+    overflow: hidden;
 
 }
 
